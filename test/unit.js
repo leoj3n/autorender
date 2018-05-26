@@ -124,7 +124,7 @@ QUnit.module("SSR Route", {
 	}
 });
 
-QUnit.test("Warn if not route", function(assert){
+QUnit.test("Warn if no routes", function(assert){
 	var render = this.render;
 	var doc = makeDoc();
 	var context = makeContextForDocument(render, doc);
