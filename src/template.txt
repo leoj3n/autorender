@@ -437,9 +437,10 @@ define(<%= imports %>, function(<%= args %>){
 				canReflect.setKeyValue(viewModel, "statusMessage", "Not found");
 			}
 		}
-
-		route.data = viewModel;
-		route.start();
+		if(!isEmptyObject(route.routes)) {
+			route.data = viewModel;
+			route.start();
+		}
 
 		renderIntoDocument(document, viewModel);
 	}
