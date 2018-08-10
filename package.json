@@ -29,7 +29,7 @@
     "url": "https://github.com/donejs/autorender/issues"
   },
   "devDependencies": {
-    "can-component": "^4.0.0",
+    "can-component": "^4.4.0",
     "can-define": "^2.0.0",
     "can-route": "^4.1.0",
     "can-route-pushstate": "^4.0.0",
